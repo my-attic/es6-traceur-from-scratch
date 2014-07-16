@@ -1,0 +1,1 @@
+        traceur --out public/js/app/app-build.js public/js/app/*.js public/js/app/**/*.js --modules=inline
