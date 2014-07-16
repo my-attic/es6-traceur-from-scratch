@@ -3,7 +3,7 @@ var express = require('express')
   , bodyParser = require('body-parser')
   , DataStore = require('nedb')
   , app = express()
-  , http_port = 4000
+  , http_port = 3000
   , humansDb = new DataStore({ filename: 'humansDb.nedb' });
 
 app.use(express.static(__dirname + '/public'));
